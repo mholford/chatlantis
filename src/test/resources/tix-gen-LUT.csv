@@ -1,0 +1,995 @@
+*,$utt:/prompt.value -> WC_0
+* assign * EMP_MKR,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+* assign * EMP_MKR *,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+* assign EMP_MKR,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+* assign EMP_MKR *,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+* assign EMP_MKR PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* assign EMP_MKR PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* assign EMP_MKR PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR a PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* assign EMP_MKR a PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR a PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR a PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR a PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* assign EMP_MKR a PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR a PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR a PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR a jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* assign EMP_MKR a jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR a jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR a jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR a ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* assign EMP_MKR a ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR a ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR a ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR an PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* assign EMP_MKR an PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR an PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR an PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR an PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* assign EMP_MKR an PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR an PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR an PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR an jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* assign EMP_MKR an jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR an jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR an jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR an ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* assign EMP_MKR an ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR an ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR an ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* assign EMP_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* assign EMP_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign EMP_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* assign PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* assign PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign a PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* assign a PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign a PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign a PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign a PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* assign a PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign a PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign a PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign a jira,$utt:/intent.name -> createTicket
+* assign a jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* assign a jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* assign a jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* assign a ticket,$utt:/intent.name -> createTicket
+* assign a ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* assign a ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* assign a ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* assign an PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* assign an PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign an PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign an PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign an PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* assign an PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign an PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign an PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* assign an jira,$utt:/intent.name -> createTicket
+* assign an jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* assign an jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* assign an jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* assign an ticket,$utt:/intent.name -> createTicket
+* assign an ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* assign an ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* assign an ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* assign jira,$utt:/intent.name -> createTicket
+* assign jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* assign jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* assign jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* assign ticket,$utt:/intent.name -> createTicket
+* assign ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* assign ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* assign ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* assigned * EMP_MKR,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+* assigned * EMP_MKR *,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+* assigned EMP_MKR,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+* assigned EMP_MKR *,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+* create EMP_MKR PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* create EMP_MKR PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* create EMP_MKR PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR a PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* create EMP_MKR a PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR a PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR a PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR a PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* create EMP_MKR a PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR a PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR a PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR a jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* create EMP_MKR a jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR a jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR a jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR a ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* create EMP_MKR a ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR a ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR a ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR an PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* create EMP_MKR an PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR an PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR an PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR an PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* create EMP_MKR an PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR an PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR an PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR an jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* create EMP_MKR an jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR an jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR an jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR an ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* create EMP_MKR an ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR an ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR an ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* create EMP_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* create EMP_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create EMP_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* create PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* create PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create a PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* create a PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create a PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create a PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create a PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* create a PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create a PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create a PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create a jira,$utt:/intent.name -> createTicket
+* create a jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* create a jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* create a jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* create a ticket,$utt:/intent.name -> createTicket
+* create a ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* create a ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* create a ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* create an PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* create an PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create an PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create an PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create an PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* create an PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create an PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create an PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* create an jira,$utt:/intent.name -> createTicket
+* create an jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* create an jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* create an jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* create an ticket,$utt:/intent.name -> createTicket
+* create an ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* create an ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* create an ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* create jira,$utt:/intent.name -> createTicket
+* create jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* create jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* create jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* create ticket,$utt:/intent.name -> createTicket
+* create ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* create ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* create ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* give * EMP_MKR,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+* give * EMP_MKR *,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+* give EMP_MKR,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+* give EMP_MKR *,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+* given * EMP_MKR,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+* given * EMP_MKR *,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+* given EMP_MKR,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+* given EMP_MKR *,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+* make EMP_MKR PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* make EMP_MKR PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* make EMP_MKR PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR a PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* make EMP_MKR a PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR a PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR a PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR a PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* make EMP_MKR a PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR a PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR a PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR a jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* make EMP_MKR a jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR a jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR a jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR a ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* make EMP_MKR a ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR a ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR a ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR an PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* make EMP_MKR an PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR an PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR an PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR an PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* make EMP_MKR an PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR an PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR an PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR an jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* make EMP_MKR an jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR an jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR an jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR an ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* make EMP_MKR an ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR an ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR an ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* make EMP_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* make EMP_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make EMP_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* make PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* make PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make a PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* make a PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make a PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make a PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make a PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* make a PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make a PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make a PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make a jira,$utt:/intent.name -> createTicket
+* make a jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* make a jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* make a jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* make a ticket,$utt:/intent.name -> createTicket
+* make a ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* make a ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* make a ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* make an PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* make an PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make an PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make an PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make an PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* make an PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make an PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make an PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* make an jira,$utt:/intent.name -> createTicket
+* make an jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* make an jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* make an jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* make an ticket,$utt:/intent.name -> createTicket
+* make an ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* make an ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* make an ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* make jira,$utt:/intent.name -> createTicket
+* make jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* make jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* make jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* make ticket,$utt:/intent.name -> createTicket
+* make ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* make ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* make ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* open EMP_MKR PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* open EMP_MKR PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR a PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* open EMP_MKR a PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR a PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR a PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR a PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* open EMP_MKR a PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR a PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR a PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR a jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* open EMP_MKR a jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR a jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR a jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR a ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* open EMP_MKR a ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR a ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR a ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR an PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* open EMP_MKR an PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR an PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR an PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR an PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* open EMP_MKR an PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR an PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR an PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR an jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* open EMP_MKR an jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR an jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR an jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR an ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* open EMP_MKR an ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR an ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR an ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* open EMP_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* open EMP_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open EMP_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* open PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* open PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open a PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* open a PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open a PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open a PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open a PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* open a PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open a PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open a PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open a jira,$utt:/intent.name -> createTicket
+* open a jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* open a jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* open a jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* open a ticket,$utt:/intent.name -> createTicket
+* open a ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* open a ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* open a ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* open an PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* open an PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open an PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open an PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open an PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* open an PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open an PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open an PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* open an jira,$utt:/intent.name -> createTicket
+* open an jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* open an jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* open an jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* open an ticket,$utt:/intent.name -> createTicket
+* open an ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* open an ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* open an ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* open jira,$utt:/intent.name -> createTicket
+* open jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* open jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* open jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* open ticket,$utt:/intent.name -> createTicket
+* open ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* open ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* open ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* start EMP_MKR PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* start EMP_MKR PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR a PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* start EMP_MKR a PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR a PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR a PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR a PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* start EMP_MKR a PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR a PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR a PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR a jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* start EMP_MKR a jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR a jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR a jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR a ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* start EMP_MKR a ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR a ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR a ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR an PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* start EMP_MKR an PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR an PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR an PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR an PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* start EMP_MKR an PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR an PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR an PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR an jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* start EMP_MKR an jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR an jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR an jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR an ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* start EMP_MKR an ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR an ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR an ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* start EMP_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+* start EMP_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start EMP_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* start PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* start PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start a PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* start a PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start a PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start a PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start a PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* start a PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start a PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start a PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start a jira,$utt:/intent.name -> createTicket
+* start a jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* start a jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* start a jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* start a ticket,$utt:/intent.name -> createTicket
+* start a ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* start a ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* start a ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* start an PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* start an PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start an PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start an PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start an PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+* start an PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start an PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start an PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_1
+* start an jira,$utt:/intent.name -> createTicket
+* start an jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* start an jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* start an jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* start an ticket,$utt:/intent.name -> createTicket
+* start an ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* start an ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* start an ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* start jira,$utt:/intent.name -> createTicket
+* start jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* start jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* start jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* start ticket,$utt:/intent.name -> createTicket
+* start ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* start ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+* start ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_1
+EMP_MKR,$utt:/prompt.value -> EMP_MKR_0
+PRIO_MKR,$utt:/prompt.value -> PRIO_MKR_0
+assign * EMP_MKR,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+assign * EMP_MKR *,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+assign EMP_MKR,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+assign EMP_MKR *,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+assign EMP_MKR PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+assign EMP_MKR PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+assign EMP_MKR PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR a PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+assign EMP_MKR a PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR a PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR a PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR a PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+assign EMP_MKR a PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR a PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR a PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR a jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+assign EMP_MKR a jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR a jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR a jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR a ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+assign EMP_MKR a ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR a ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR a ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR an PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+assign EMP_MKR an PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR an PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR an PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR an PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+assign EMP_MKR an PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR an PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR an PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR an jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+assign EMP_MKR an jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR an jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR an jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR an ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+assign EMP_MKR an ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR an ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR an ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+assign EMP_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+assign EMP_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign EMP_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+assign PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+assign PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign a PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+assign a PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign a PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign a PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign a PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+assign a PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign a PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign a PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign a jira,$utt:/intent.name -> createTicket
+assign a jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+assign a jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+assign a jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+assign a ticket,$utt:/intent.name -> createTicket
+assign a ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+assign a ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+assign a ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+assign an PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+assign an PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign an PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign an PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign an PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+assign an PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign an PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign an PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+assign an jira,$utt:/intent.name -> createTicket
+assign an jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+assign an jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+assign an jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+assign an ticket,$utt:/intent.name -> createTicket
+assign an ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+assign an ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+assign an ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+assign jira,$utt:/intent.name -> createTicket
+assign jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+assign jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+assign jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+assign ticket,$utt:/intent.name -> createTicket
+assign ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+assign ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+assign ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+assigned * EMP_MKR,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+assigned * EMP_MKR *,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+assigned EMP_MKR,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+assigned EMP_MKR *,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+create EMP_MKR PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+create EMP_MKR PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+create EMP_MKR PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR a PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+create EMP_MKR a PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR a PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR a PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR a PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+create EMP_MKR a PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR a PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR a PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR a jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+create EMP_MKR a jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR a jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR a jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR a ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+create EMP_MKR a ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR a ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR a ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR an PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+create EMP_MKR an PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR an PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR an PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR an PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+create EMP_MKR an PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR an PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR an PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR an jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+create EMP_MKR an jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR an jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR an jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR an ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+create EMP_MKR an ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR an ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR an ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+create EMP_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+create EMP_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+create EMP_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+create PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+create PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+create PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create a PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+create a PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create a PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create a PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create a PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+create a PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create a PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create a PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create a jira,$utt:/intent.name -> createTicket
+create a jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+create a jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+create a jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+create a ticket,$utt:/intent.name -> createTicket
+create a ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+create a ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+create a ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+create an PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+create an PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create an PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create an PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create an PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+create an PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create an PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create an PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+create an jira,$utt:/intent.name -> createTicket
+create an jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+create an jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+create an jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+create an ticket,$utt:/intent.name -> createTicket
+create an ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+create an ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+create an ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+create jira,$utt:/intent.name -> createTicket
+create jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+create jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+create jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+create ticket,$utt:/intent.name -> createTicket
+create ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+create ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+create ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+give * EMP_MKR,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+give * EMP_MKR *,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+give EMP_MKR,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+give EMP_MKR *,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+given * EMP_MKR,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+given * EMP_MKR *,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+given EMP_MKR,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+given EMP_MKR *,$utt:/objects/changeTicket.property -> $utt:/objects/ticket.assignee; $utt:/objects/changeTicket.propertyDisplayName -> assignee; $utt:/objects/changeTicket.value -> EMP_MKR_0
+make EMP_MKR PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+make EMP_MKR PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+make EMP_MKR PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR a PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+make EMP_MKR a PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR a PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR a PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR a PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+make EMP_MKR a PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR a PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR a PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR a jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+make EMP_MKR a jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR a jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR a jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR a ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+make EMP_MKR a ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR a ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR a ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR an PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+make EMP_MKR an PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR an PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR an PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR an PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+make EMP_MKR an PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR an PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR an PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR an jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+make EMP_MKR an jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR an jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR an jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR an ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+make EMP_MKR an ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR an ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR an ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+make EMP_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+make EMP_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+make EMP_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+make PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+make PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+make PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make a PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+make a PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make a PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make a PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make a PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+make a PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make a PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make a PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make a jira,$utt:/intent.name -> createTicket
+make a jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+make a jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+make a jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+make a ticket,$utt:/intent.name -> createTicket
+make a ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+make a ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+make a ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+make an PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+make an PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make an PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make an PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make an PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+make an PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make an PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make an PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+make an jira,$utt:/intent.name -> createTicket
+make an jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+make an jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+make an jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+make an ticket,$utt:/intent.name -> createTicket
+make an ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+make an ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+make an ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+make jira,$utt:/intent.name -> createTicket
+make jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+make jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+make jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+make ticket,$utt:/intent.name -> createTicket
+make ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+make ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+make ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+open EMP_MKR PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+open EMP_MKR PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR a PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+open EMP_MKR a PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR a PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR a PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR a PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+open EMP_MKR a PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR a PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR a PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR a jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+open EMP_MKR a jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR a jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR a jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR a ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+open EMP_MKR a ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR a ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR a ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR an PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+open EMP_MKR an PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR an PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR an PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR an PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+open EMP_MKR an PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR an PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR an PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR an jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+open EMP_MKR an jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR an jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR an jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR an ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+open EMP_MKR an ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR an ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR an ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+open EMP_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+open EMP_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+open EMP_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+open PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+open PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+open PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open a PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+open a PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open a PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open a PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open a PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+open a PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open a PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open a PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open a jira,$utt:/intent.name -> createTicket
+open a jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+open a jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+open a jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+open a ticket,$utt:/intent.name -> createTicket
+open a ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+open a ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+open a ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+open an PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+open an PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open an PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open an PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open an PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+open an PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open an PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open an PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open an jira,$utt:/intent.name -> createTicket
+open an jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+open an jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+open an jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+open an ticket,$utt:/intent.name -> createTicket
+open an ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+open an ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+open an ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+open jira,$utt:/intent.name -> createTicket
+open jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+open jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+open jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+open ticket,$utt:/intent.name -> createTicket
+open ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+open ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+open ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+start EMP_MKR PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+start EMP_MKR PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR a PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+start EMP_MKR a PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR a PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR a PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR a PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+start EMP_MKR a PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR a PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR a PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR a jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+start EMP_MKR a jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR a jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR a jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR a ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+start EMP_MKR a ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR a ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR a ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR an PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+start EMP_MKR an PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR an PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR an PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR an PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+start EMP_MKR an PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR an PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR an PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR an jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+start EMP_MKR an jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR an jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR an jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR an ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+start EMP_MKR an ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR an ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR an ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+start EMP_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+start EMP_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+start EMP_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.title -> WC_0
+start PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+start PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+start PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start a PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+start a PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start a PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start a PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start a PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+start a PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start a PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start a PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start a jira,$utt:/intent.name -> createTicket
+start a jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+start a jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+start a jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+start a ticket,$utt:/intent.name -> createTicket
+start a ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+start a ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+start a ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+start an PRIO_MKR jira,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+start an PRIO_MKR jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start an PRIO_MKR jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start an PRIO_MKR jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start an PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+start an PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start an PRIO_MKR ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start an PRIO_MKR ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+start an jira,$utt:/intent.name -> createTicket
+start an jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+start an jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+start an jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+start an ticket,$utt:/intent.name -> createTicket
+start an ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+start an ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+start an ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+start jira,$utt:/intent.name -> createTicket
+start jira called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+start jira named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+start jira with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+start ticket,$utt:/intent.name -> createTicket
+start ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+start ticket named *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
+start ticket with title *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0

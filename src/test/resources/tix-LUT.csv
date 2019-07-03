@@ -1,0 +1,6 @@
+*,$utt:/prompt.value -> WC_0
+EMP_MKR,$utt:/prompt.value -> EMP_MKR_0
+i want to open a ticket,$utt:/intent.name -> createTicket
+open a ticket *,$utt:/intent.name -> createTicket
+open a ticket for EMP_MKR,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+tix,$utt:/intent.name -> createTicket

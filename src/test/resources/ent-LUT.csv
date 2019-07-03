@@ -1,0 +1,5 @@
+EMP_MKR gets a PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0; $utt:/objects/ticket.priority -> PRIO_MKR_0
+EMP_MKR gets a ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0
+open a PRIO_MKR ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0
+open a PRIO_MKR ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> PRIO_MKR_0; $utt:/objects/ticket.title -> WC_0
+open a ticket for EMP_MKR,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> EMP_MKR_0

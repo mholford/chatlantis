@@ -1,0 +1,131 @@
+{
+  "bots": [
+    {
+      "name": "default",
+      "actionProcessors": [
+        {
+          "cls": "org.mholford.chatlantis.action.RevalidatingActionProcessor",
+          "props": {}
+        }
+      ],
+      "actions": [
+        {
+          "name": "createTicket",
+          "cls": "org.mholford.chatlantis.action.CreateTicketAction",
+          "props": {}
+        }, {
+          "name": "changeTicket",
+          "cls": "org.mholford.chatlantis.action.ChangeTicketAction",
+          "props": {}
+        }
+      ],
+      "intents": [
+        {
+          "name": "createTicket",
+          "successTemplate": [
+            "You are creating a ticket called <$utt:/objects/ticket.title>, ",
+            "assigned to <$utt:/objects/ticket.assignee>, ",
+            "with priority of <$utt:/objects/ticket.priority>, ",
+            "and an estimate of <$utt:/objects/ticket.estimate>."
+          ],
+          "successActions": [
+            "createTicket"
+          ],
+          "confirmOnValid": true,
+          "denyIntent": "changeTicket",
+          "objectSlots": ["/ticket"],
+          "constraints": [
+            {
+              "slot": "$utt:/objects/ticket.title",
+              "prompt": "What should we call this ticket?",
+              "validatorClass": "org.mholford.chatlantis.validation.NotNull",
+              "validatorParams": {}
+            },
+            {
+              "slot": "$utt:/objects/ticket.assignee",
+              "prompt": "Who should we assign this ticket to?",
+              "validatorClass": "org.mholford.chatlantis.validation.OneOf",
+              "validatorParams": {
+                "dict": "abc-employees.csv"
+              }
+            },
+            {
+              "slot": "$utt:/objects/ticket.priority",
+              "prompt": "What priority should we set?",
+              "validatorClass": "org.mholford.chatlantis.validation.OneOf",
+              "validatorParams": {
+                "dict": "tix-priorities.csv"
+              }
+            },
+            {
+              "slot": "$utt:/objects/ticket.estimate",
+              "prompt": "How long should we estimate?",
+              "validatorClass": "org.mholford.chatlantis.validation.Contains",
+              "validatorParams": {
+                "match": "hours"
+              }
+            }
+          ]
+        }, {
+          "name": "changeTicket",
+          "successTemplate": [
+            "You changed <$utt:/objects/changeTicket.propertyDisplayName> ",
+            "to <$utt:/objects/changeTicket.value>."
+          ],
+          "successActions": [
+            "changeTicket"
+          ],
+          "confirmOnValid": false,
+          "objectSlots": ["/changeTicket"],
+          "constraints": [],
+          "initialResponsePrompt": "What would you like to change?"
+        }
+      ],
+      "lookup": {
+        "props": {
+          "generator": "org.mholford.chatlantis.LUTGen",
+          "dict": "tix-gen-LUT.csv"
+        }
+      },
+      "workflows": [
+        {
+          "name": "default",
+          "utteranceProcessors": [
+            {
+              "cls": "org.mholford.chatlantis.workflow.EEUtteranceProcessor",
+              "props": {
+                "dict": "abc-employees.csv",
+                "alias": "EMP"
+              }
+            },
+            {
+              "cls": "org.mholford.chatlantis.workflow.EEUtteranceProcessor",
+              "props": {
+                "dict": "tix-priorities.csv",
+                "alias": "PRIO"
+              }
+            }
+          ],
+          "intentMatchers": [
+            {
+              "cls": "org.mholford.chatlantis.intent.ExplicitIntentMatcher",
+              "props": {}
+            }
+          ],
+          "intentResolvers": [
+            {
+              "cls": "org.mholford.chatlantis.intent.ValidatingIntentResolver",
+              "props": {}
+            }
+          ],
+          "promptHandlers": [
+            {
+              "cls": "org.mholford.chatlantis.prompt.DefaultPromptHandler",
+              "props": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+* gets a ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.assignee -> WC_0
+open a * ticket,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> WC_0
+open a * ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.priority -> WC_0; $utt:/objects/ticket.title -> WC_1
+open a ticket called *,$utt:/intent.name -> createTicket; $utt:/objects/ticket.title -> WC_0
