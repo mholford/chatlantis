@@ -3,3 +3,6 @@
 exportToHTML
 out
 .settings
+*.iml
+*.ipr
+*.iws
