@@ -56,4 +56,12 @@ public class IntentMatcherConfig {
     im.init(props);
     return im;
   }
+  
+  /**
+   * Gets the default IntentMatcher, which is ExplicitIntentMatcher
+   * @return ExplicitIntentMatcher
+   */
+  public static IntentMatcher getDefault() {
+    return new ExplicitIntentMatcher();
+  }
 }

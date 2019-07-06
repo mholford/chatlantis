@@ -25,21 +25,21 @@ public class WorkflowConfig implements Utils {
   private String name;
   
   @JsonProperty("utteranceProcessors")
-  private List<UtteranceProcessorConfig> processorConfigs;
+  private List<UtteranceProcessorConfig> processorConfigs = new ArrayList<>();
   
   @JsonProperty("intentMatchers")
-  private List<IntentMatcherConfig> matcherConfigs;
+  private List<IntentMatcherConfig> matcherConfigs = new ArrayList<>();
   
   @JsonProperty("intentResolvers")
-  private List<IntentResolverConfig> resolverConfigs;
+  private List<IntentResolverConfig> resolverConfigs = new ArrayList<>();
   
   @JsonProperty("promptHandlers")
-  private List<PromptHandlerConfig> promptHandlerConfigs;
+  private List<PromptHandlerConfig> promptHandlerConfigs = new ArrayList<>();
   
   /**
    * Initializes the Workflow by instantiating each of the configured helper classes
    * @return Fully initialized Workflow instance
-   * @throws IOException If could not read configuration
+   * @throws IOException                  If could not read configuration
    * @throws ReflectiveOperationException If could not instantiate helper classes
    */
   public Workflow init() throws IOException, ReflectiveOperationException {
@@ -47,17 +47,32 @@ public class WorkflowConfig implements Utils {
     for (UtteranceProcessorConfig upc : processorConfigs) {
       processors.add(upc.init());
     }
+    
     List<IntentMatcher> matchers = new ArrayList<>();
-    for (IntentMatcherConfig imc : matcherConfigs) {
-      matchers.add(imc.init());
+    if (matcherConfigs.size() < 1) {
+      matchers.add(IntentMatcherConfig.getDefault());
+    } else {
+      for (IntentMatcherConfig imc : matcherConfigs) {
+        matchers.add(imc.init());
+      }
     }
+    
     List<IntentResolver> resolvers = new ArrayList<>();
-    for (IntentResolverConfig irc : resolverConfigs) {
-      resolvers.add(irc.init());
+    if (resolverConfigs.size() < 1) {
+      resolvers.add(IntentResolverConfig.getDefault());
+    } else {
+      for (IntentResolverConfig irc : resolverConfigs) {
+        resolvers.add(irc.init());
+      }
     }
+    
     List<PromptHandler> promptHandlers = new ArrayList<>();
-    for (PromptHandlerConfig phc : promptHandlerConfigs) {
-      promptHandlers.add(phc.init());
+    if (promptHandlerConfigs.size() < 1) {
+      promptHandlers.add(PromptHandlerConfig.getDefault());
+    } else {
+      for (PromptHandlerConfig phc : promptHandlerConfigs) {
+        promptHandlers.add(phc.init());
+      }
     }
     return DefaultWorkflowFactory.get().createDefaultWorkflow(
         name, processors, matchers, resolvers, promptHandlers);
