@@ -53,4 +53,12 @@ public class IntentResolverConfig {
     ir.init(props);
     return ir;
   }
+  
+  /**
+   * Gets the default IntentResolver, which is ValidatingIntentResolver
+   * @return ValidatingIntentResolver
+   */
+  public static IntentResolver getDefault() {
+    return new ValidatingIntentResolver();
+  }
 }

@@ -60,4 +60,12 @@ public class PromptHandlerConfig {
     ph.init(props);
     return ph;
   }
+  
+  /**
+   * Gets the default PromptHandler, which is DefaultPromptHandler
+   * @return DefaultPromptHandler
+   */
+  public static PromptHandler getDefault() {
+    return new DefaultPromptHandler();
+  }
 }

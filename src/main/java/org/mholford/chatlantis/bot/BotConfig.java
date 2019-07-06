@@ -28,7 +28,7 @@ public class BotConfig {
   private String name;
   
   @JsonProperty("actionProcessors")
-  private List<ActionProcessorConfig> actionProcessorConfigs;
+  private List<ActionProcessorConfig> actionProcessorConfigs = new ArrayList<>();
   
   @JsonProperty("workflows")
   private List<WorkflowConfig> workflowConfigs;
@@ -54,8 +54,12 @@ public class BotConfig {
    */
   public Bot init() throws ReflectiveOperationException, IOException {
     List<ActionProcessor> processors = new ArrayList<>();
-    for (ActionProcessorConfig apc : actionProcessorConfigs) {
-      processors.add(apc.init());
+    if (actionProcessorConfigs.size() < 1) {
+      processors.add(ActionProcessorConfig.getDefault());
+    } else {
+      for (ActionProcessorConfig apc : actionProcessorConfigs) {
+        processors.add(apc.init());
+      }
     }
     List<Workflow> workflows = new ArrayList<>();
     for (WorkflowConfig wc : workflowConfigs) {

@@ -56,4 +56,12 @@ public class ActionProcessorConfig {
     ap.init(props);
     return ap;
   }
+  
+  /**
+   * Creates the default ActionProcessor, which is RevalidatingActionProcessor.
+   * @return RevalidatingActionProcessor
+   */
+  public static ActionProcessor getDefault() {
+    return new RevalidatingActionProcessor();
+  }
 }

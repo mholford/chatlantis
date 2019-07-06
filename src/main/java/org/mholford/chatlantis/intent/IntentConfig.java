@@ -18,18 +18,18 @@ import java.util.Map;
  */
 public class IntentConfig implements Utils {
   private String name;
-  private List<String> successTemplate;
+  private List<String> successTemplate = new ArrayList<>();
   private String initialResponsePrompt;
   private String denyIntent;
-  private List<String> objectSlots;
+  private List<String> objectSlots = new ArrayList<>();
   
   @JsonProperty("successActions")
-  private List<String> successActionNames;
+  private List<String> successActionNames = new ArrayList<>();
   
   private boolean confirmOnValid;
   
   @JsonProperty("constraints")
-  private List<ConstraintConfig> constraintConfigs;
+  private List<ConstraintConfig> constraintConfigs = new ArrayList<>();
   
   private final IntentFactory ifac = IntentFactory.get();
   
