@@ -84,7 +84,10 @@ public class Bot implements Utils {
       ActionResponse ar = ap.process(a, ctxSnapshot, this, u);
       String spokenResponse = ar.getSpokenResponse();
       if (!Strings.isNullOrEmpty(spokenResponse)) {
-        reply.append("\n" + ar.getSpokenResponse());
+        if (reply.length() > 0) {
+          reply.append("\n");
+        }
+        reply.append(ar.getSpokenResponse());
       }
       ctxSnapshot = ar.getContext();
     }
