@@ -25,7 +25,7 @@ public class AutomatedConvoTest implements Utils {
   
   @Test
   public void test1() throws IOException {
-    String goal = "\nCreated ticket ABC-001 in JIRA";
+    String goal = "Created ticket ABC-001 in JIRA";
     Map<String, String> map = stringMapOf(
         "What should we call this ticket?", "hello",
         "Who should we assign this ticket to?", "matt",
@@ -40,7 +40,7 @@ public class AutomatedConvoTest implements Utils {
   
   @Test
   public void test2() throws IOException {
-    String goal = "\nCreated ticket ABC-001 in JIRA";
+    String goal = "Created ticket ABC-001 in JIRA";
     Map<String, String> map = stringMapOf(
         "How long should we estimate?", "10 hours",
         "You are creating a ticket called hello, assigned to matt, " +
@@ -52,7 +52,7 @@ public class AutomatedConvoTest implements Utils {
   
   @Test
   public void test3() throws IOException {
-    String goal = "\nCreated ticket ABC-001 in JIRA";
+    String goal = "Created ticket ABC-001 in JIRA";
     Map<String, String> map = stringMapOf(
         "How long should we estimate?", "10 hours",
         "You are creating a ticket called hello, assigned to matt, " +
